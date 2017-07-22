@@ -24,3 +24,10 @@ remote:   https://github.com/stakiran-org/test_transfer.git
 To https://github.com/stakiran/test_transfer
    4c28cb6..7904550  master -> master
 ```
+
+# (3) move to personal 'stakiran'
+After: https://github.com/stakiran/test_transfer/
+
+Test: Access to https://github.com/stakiran-org/test_transfer/ -> Redirected.
+
+Test: git clone https://github.com/stakiran/test_transfer -> Same as (2)
