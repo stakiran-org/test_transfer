@@ -7,7 +7,13 @@ https://github.com/stakiran/test_transfer/
 # (2) move to org 'stakiran-org'
 After: https://github.com/stakiran-org/test_transfer/
 
-Tests
+Test: Access to https://github.com/stakiran/test_transfer
 
-- Access to https://github.com/stakiran/test_transfer
-  - :point_right: redirected.
+:point_right: redirected.
+
+Test: git clone https://github.com/stakiran/test_transfer
+
+```gitconfig
+[remote "origin"]
+	url = https://github.com/stakiran/test_transfer
+```
